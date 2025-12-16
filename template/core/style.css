@@ -1,0 +1,11 @@
+header {
+  height: 46px;
+  color: #fff;
+}
+header .buttons {
+  padding: 4px;
+  height: 32px;
+}
+header .dropdown-toggle::after {
+  display: none;
+}
