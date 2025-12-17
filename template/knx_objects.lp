@@ -235,7 +235,9 @@ end
 
       local value = get_object_value(float32_obj.float32_obj)
 
-      if not value then
+      if type(value) == 'number' then
+        value = string.format('%.3f', value)
+      else
         value = 0
       end
 
